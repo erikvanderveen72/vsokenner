@@ -88,7 +88,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="nl">
       <head>
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-PJ0BQTR0LB"
+          src="https://www.googletagmanager.com/gtag/js?id=G-87X60MJKM0"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -96,7 +96,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-PJ0BQTR0LB');
+            gtag('config', 'G-87X60MJKM0');
           `}
         </Script>
         <meta name="geo.country" content="NL" />
