@@ -15,9 +15,9 @@ export interface BelastingSchijf {
 }
 
 export const belastingSchijven2026: BelastingSchijf[] = [
-  { schijf: 1, van: 0, tot: 38441, tarief: 0.3597 },
-  { schijf: 2, van: 38441, tot: 76817, tarief: 0.3748 },
-  { schijf: 3, van: 76817, tot: null, tarief: 0.4950 },
+  { schijf: 1, van: 0, tot: 38883, tarief: 0.3575 },
+  { schijf: 2, van: 38883, tot: 78426, tarief: 0.3756 },
+  { schijf: 3, van: 78426, tot: null, tarief: 0.4950 },
 ];
 
 // ===== FICTIEVE OPZEGTERMIJN =====
@@ -36,7 +36,7 @@ export const opzegtermijnen: OpzegtermijnRegel[] = [
 
 // ===== WW-UITKERING =====
 // Bron: UWV.nl — 2026
-export const WW_MAX_DAGLOON_2026 = 274.44; // bruto per dag (incl. vakantietoeslag)
+export const WW_MAX_DAGLOON_2026 = 304.25; // bruto per dag (incl. vakantietoeslag)
 export const WW_PERCENTAGE_EERSTE_2_MAANDEN = 0.75;
 export const WW_PERCENTAGE_DAARNA = 0.70;
 export const WW_MIN_ARBEIDSVERLEDEN_WEKEN = 26; // 26 van 36 weken
@@ -118,7 +118,7 @@ export const FAQ_TRANSITIEVERGOEDING = [
   },
   {
     question: "Moet ik belasting betalen over de transitievergoeding?",
-    answer: "Ja, de transitievergoeding is belast als loon. Je werkgever houdt loonheffing in. Afhankelijk van je inkomen betaal je 35,97% tot 49,50% belasting. Je kunt de netto vergoeding berekenen met onze calculator.",
+    answer: "Ja, de transitievergoeding is belast als loon. Je werkgever houdt loonheffing in. Afhankelijk van je inkomen betaal je 35,75% tot 49,50% belasting. Je kunt de netto vergoeding berekenen met onze calculator.",
   },
   {
     question: "Kan ik meer krijgen dan de wettelijke transitievergoeding?",
@@ -164,7 +164,7 @@ export const FAQ_WW_RECHTEN = [
   },
   {
     question: "Hoe hoog is de WW-uitkering in 2026?",
-    answer: "De eerste 2 maanden ontvang je 75% van je dagloon, daarna 70%. Het maximale dagloon in 2026 is €274,44 per dag. Dit komt neer op maximaal circa €4.492 bruto per maand in de eerste 2 maanden.",
+    answer: "De eerste 2 maanden ontvang je 75% van je dagloon, daarna 70%. Het maximale dagloon in 2026 is €304,25 per dag. Dit komt neer op maximaal circa €4.963 bruto per maand in de eerste 2 maanden.",
   },
   {
     question: "Hoe lang duurt de WW-uitkering?",

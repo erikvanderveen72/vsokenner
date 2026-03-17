@@ -61,7 +61,7 @@ export default function WWCalculator() {
           <div className="bg-sky-50 border border-sky-200 rounded-lg p-4">
             <p className="text-sm text-sky-900"><strong>Let op:</strong> Je WW start pas na afloop van de fictieve opzegtermijn van {resultaat.opzegtermijn} maand{resultaat.opzegtermijn > 1 ? "en" : ""}. Zorg dat de einddatum in je VSO hier rekening mee houdt.</p>
           </div>
-          <p className="text-xs text-stone-400">Indicatieve berekening. Max dagloon 2026: €274,44. Bron: UWV.nl.</p>
+          <p className="text-xs text-stone-400">Indicatieve berekening. Max dagloon 2026: €304,25. Bron: UWV.nl.</p>
         </div>
       </div>
     </div>
