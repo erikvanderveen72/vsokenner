@@ -4,7 +4,9 @@ import Link from "next/link";
 import { Menu, X, Shield, ChevronDown } from "lucide-react";
 
 const mainItems = [
+  { label: "Adviestool", href: "/advies" },
   { label: "Wat is een VSO?", href: "/wat-is-een-vso" },
+  { label: "Voorbeelden", href: "/voorbeelden" },
   { label: "Transitievergoeding", href: "/transitievergoeding" },
   { label: "WW-rechten", href: "/ww-rechten" },
 ];
